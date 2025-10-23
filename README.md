@@ -7,7 +7,7 @@ O objetivo deste projeto é proporcionar uma **experiência agradável e intuiti
 
 ## 🌐 Demonstração
 
-🔗 **[Acesse o site aqui](https://seu-link-do-github-pages.vercel.app/)**  
+🔗 **[Acesse o site aqui](https://detofollisilva.github.io/CoffeeShop/)**  
 _(ou substitua pelo link do seu deploy no GitHub Pages ou Vercel)_
 
 ![Preview do Coffee Shop](https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=1000)
