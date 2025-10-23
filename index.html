@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coffe Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/coffee-shop-logo-template-design-5a0e3cea955fde66f5e8e4e07c8759a1_screen.jpg?ts=1738121268"
+                    ; alt="Logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#carousel-coffee">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Cardápio">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#local">Local</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Carousel -->
+        <header id="carousel-coffee" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1061"
+                        class="d-block w-100" alt="grãos de café">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>A melhor experiência gastronômica de café</h5>
+                        <p>Você vai experenciar os melhores cafés do Brasil e do Mundo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1478"
+                        class="d-block w-100" alt="Cafeteria">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Um ambiente pensado para você e sua família</h5>
+                        <p>Nosso restaurante oferece um ambiente confortável para o conforto de todos.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1471"
+                        class="d-block w-100" alt="Os melhores Grãos">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Os melhores grãos</h5>
+                        <p>Trabalhamos com ingredientes selecionados, da melhor qualidade, do jeito que você merece.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coffee" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-coffee" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </header>
+
+        <!-- Texto -->
+        <figure>
+            <blockquote class="blockquote">
+                <h3 class="fw-lighter text-center fst-italic mt-5">"O amor é um café às oito da manhã numa segunda."
+                </h3>
+            </blockquote>
+            <figcaption class="blockquote-foote text-center ">
+                - Coffe Shop <cite title="Source Title"></cite>
+            </figcaption>
+        </figure>
+
+        <!--Cards-->
+        <section id="about" class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://images.unsplash.com/photo-1610632380989-680fe40816c6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687"
+                                    class="img-fluid rounded-start" alt="Coffee">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Somos Apaixonados por Café</h5>
+                                    <h6 class="card-subtitle text-muted mb-3">Acreditamos que o café pode mudar o (seu)
+                                        mundo</h6>
+                                    <p class="card-text">A cafeína também aumenta a liberação de dopamina e serotonina,
+                                        neurotransmissores ligados à sensação de prazer e bem-estar. Por isso, muita
+                                        gente
+                                        se sente mais animada após o café da manhã.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="https://images.unsplash.com/photo-1494314671902-399b18174975?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687"
+                                    class="img-fluid rounded-start" alt="Coffee">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sem café, sem paciência.</h5>
+                                    <h6 class="card-subtitle text-muted mb-3">Café de verdade, sabor incomparável.</h6>
+                                    <p class="card-text">A cafeína estimula o sistema nervoso central, ajudando a
+                                        combater o
+                                        cansaço e melhorando a concentração, o raciocínio e o tempo de reação.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Cardápio-->
+        <section id="menu" class="container mt-5 mb-5">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="espresso-tab" data-bs-toggle="tab"
+                        data-bs-target="#espresso-tab-pane" type="button" role="tab" aria-controls="espresso-tab-pane"
+                        aria-selected="true">Expressos</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="cappuccino-tab" data-bs-toggle="tab"
+                        data-bs-target="#cappuccino-tab-pane" type="button" role="tab"
+                        aria-controls="cappuccino-tab-pane" aria-selected="false">Capuccinos</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="iced-coffee-tab" data-bs-toggle="tab"
+                        data-bs-target="#iced-coffee-tab-pane" type="button" role="tab"
+                        aria-controls="iced-coffee-tab-pane" aria-selected="false">Gelados</button>
+                </li>
+
+            </ul>
+            <div class="tab-content" id="coffees-Tab-Content">
+                <div class="tab-pane fade show active" id="espresso-tab-pane" role="tabpanel"
+                    aria-labelledby="espresso-tab" tabindex="0">
+
+                    <!--Expressos-->
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://www.sabornamesa.com.br/media/k2/items/cache/e7292aea607c4ae69d06920ac8bb404a_XL.jpg"
+                                    class="card-img-top" alt="Café Mocaccino">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Café Mocaccino</h5>
+                                    <h6> O mocaccino é uma bebida quente que combina café, chocolate e leite, sendo uma
+                                        variação do caffè latte. Pode ser preparado com café expresso ou filtrado e é
+                                        frequentemente finalizado com chantilly.</h6>
+                                    <p class="card-text">R$12,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://cdn.abrahao.com.br/base/941/30e/a17/espresso-panna.jpg"
+                                    class="card-img-top" alt="Café Espresso">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Expresso Panna</h5>
+                                    <h6>Espresso con panna é um café feito com um shot de espresso e uma colherada de
+                                        creme chantilly por cima, a bebida equilibra o amargor do café com a doçura do
+                                        creme.</h6>
+                                    <p class="card-text">R$12,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://eu-central-1-jde.graphassets.com/AiQ00hd1mTUe8afHSH6YFz/output=format:webp/wg8y9ZWR5ehEnsQRns4o"
+                                    class="card-img-top" alt="café Espresso">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Ristretto</h5>
+                                    <H6>Ristretto é um tipo de café espresso extraído usando menos água, resultando em
+                                        uma bebida mais concentrada e intensa</H6>
+                                    <p class="card-text">R$10,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://fnb.tech/wp-content/uploads/2025/01/Lungo-Coffee-Drink.jpg"
+                                    class="card-img-top" alt="Café Espresso">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Café Lungo</h5>
+                                    <h6>Lungo é um tipo de café italiano que significa "longo" e é preparado com o dobro
+                                        de água do que um espresso</h6>
+                                    <p class="card-text">R$10,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://loucodocafe.com.br/wp-content/uploads/2019/09/cafe-expresso-02-e1568084083582.jpg"
+                                    class="card-img-top" alt="Café Espresso">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Expresso Tradicional</h5>
+                                    <h6>Café expresso é uma bebida de café concentrada e encorpada, feita ao forçar água
+                                        quente sob alta pressão através de grãos de café finamente moídos.</h6>
+                                    <p class="card-text">R$8,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://www.srespresso.com.br/wp-content/uploads/2016/01/Espresso-duplo-Imagem-Carda%CC%81io-Portal-Senhor-Espresso.png"
+                                    class="card-img-top" alt="Café Espresso">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Expresso Duplo</h5>
+                                    <h6>Um espresso doppio é um expresso duplo, preparado com o dobro da quantidade de
+                                        café moídos usados no expresso tradicional. Ele oferece uma experiência
+                                        mais intensa e encorpada que um expresso tradicional, sendo também mais forte em
+                                        cafeína.</h6>
+                                    <p class="card-text">R$10,00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Cappuccino-->
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="cappuccino-tab-pane" role="tabpanel" aria-labelledby="cappuccino-tab"
+                    tabindex="0">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://www.sabornamesa.com.br/media/k2/items/cache/e7292aea607c4ae69d06920ac8bb404a_XL.jpg"
+                                    class="card-img-top" alt="Cappuccino italiano">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Cappuccino italiano</h5>
+                                    <h6> O cappuccino italiano é uma bebida com café espresso, leite vaporizado e espuma
+                                        de leite, sem a adição de açúcar, chocolate ou canela.</h6>
+                                    <p class="card-text">R$15,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://nutritotal.com.br/publico-geral/wp-content/uploads/2021/08/cappuccino-funcional-em-po-receita.jpg"
+                                    class="card-img-top" alt="Cappuccino à brasileira">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Cappuccino à brasileira</h5>
+                                    <h6>O cappuccino à brasileira geralmente inclui ingredientes adicionais como
+                                        chocolate em pó ou canela, tornando a bebida mais doce e encorpada.</h6>
+                                    <p class="card-text">R$15,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://revistaespresso.com.br/wordpress/wp-content/uploads/2022/09/cappuccino-vegano.png"
+                                    class="card-img-top" alt="Cappuccino vegano">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Cappuccino vegano</h5>
+                                    <H6>Para quem segue uma dieta vegana ou possui intolerância à lactose, o cappuccino
+                                        vegano é uma excelente opção. Em vez do leite de vaca, utiliza-se leite vegetal,
+                                        como leite de amêndoas, aveia ou soja. </H6>
+                                    <p class="card-text">R$15,00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://loucodocafe.com.br/wp-content/uploads/2019/09/cafe-expresso-02-e1568084083582.jpg"
+                                    class="card-img-top" alt="Café Espresso">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Expresso Tradicional</h5>
+                                    <h6>Café expresso é uma bebida de café concentrada e encorpada, feita ao forçar água
+                                        quente sob alta pressão através de grãos de café finamente moídos.</h6>
+                                    <p class="card-text">R$8,00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="iced-coffee-tab-pane" role="tabpanel" aria-labelledby="iced-coffee-tab"
+                    tabindex="0">
+
+
+                    <!--Cafés gelados-->
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://www.mexidodeideias.com.br/wp-content/uploads/2013/02/como-fazer-cafe-gelado-em-casa1.jpg"
+                                    class="card-img-top" alt="Cafés gelado simples">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Cafés gelado simples</h5>
+                                    <h6> O segredo está em preparar um café forte e gelá-lo ou usar café solúvel com
+                                        água morna e gelo.</h6>
+                                    <p class="card-text">R$11,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://perfectdailygrind.com/pt/wp-content/uploads/sites/5/2021/12/Patolatte_Patocchiatto_RicardoDangelo_PATOREI.png"
+                                    class="card-img-top" alt="Café gelado básico (cold brew)">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Café cold brew</h5>
+                                    <h6>Esse método lento resulta em uma bebida de sabor suave, menos amarga e com menor
+                                        acidez que o café extraído com água quente. </h6>
+                                    <p class="card-text">R$12,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://coffeelounge.delonghi.com/wp-content/uploads/2024/04/Recidpe-PDP_Iced-orange-coffee-1.png"
+                                    class="card-img-top" alt="Orange Coffee">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Orange Coffee</h5>
+                                    <H6>Essa mistura une os efeitos estimulantes da cafeína com as propriedades
+                                        nutricionais da laranja, resultando, então, em uma bebida rica em antioxidantes,
+                                        que impulsiona o metabolismo e, além disso, fortalece o sistema imunológico</H6>
+                                    <p class="card-text">R$15,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://holycafe.com.br/wp-content/uploads/2024/08/cafe-gelado-com-leite-condensado-o-sabor-irresistivel-da-nossa-terra-ffdde-1.jpg"
+                                    class="card-img-top" alt="Café Gelado com leite Condensado">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Café gelado com leite Condensado</h5>
+                                    <h6> Essa bebida, com sua combinação inigualável de café forte e a cremosidade do
+                                        leite condensado, traz um equilíbrio perfeito de sabores que aquecerão seu
+                                        coração e refrescarão sua mente.</h6>
+                                    <p class="card-text">R$15,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://img.freepik.com/fotos-premium/cafe-gelado-tailandes-com-leite-de-coco-com-gelo-picado-em-uma-jarra-de-vidro_117406-1463.jpg"
+                                    class="card-img-top" alt="Café gelado Tailandês">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Café gelado Tailandês</h5>
+                                    <h6>O café gelado tailandês, conhecido como café yen, é uma bebida rica e
+                                        refrescante, que equilibra café forte com o sabor doce e cremoso do leite
+                                        condensado.</h6>
+                                    <p class="card-text">R$13,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-menu">
+                                <img src="https://storage.googleapis.com/imagens_videos_gou_cooking_prod/production/cooking/mjfcHBKUvEgPo04tR2EVoenD4JlsVAzDcoXbKbFW.jpeg"
+                                    class="card-img-top" alt="Affogato">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Affogato</h5>
+                                    <h6>Affogato é uma sobremesa italiana simples que consiste em uma bola de sorvete,
+                                        geralmente de baunilha ou creme, sendo "afogada" em uma dose de café expresso
+                                        quente.</h6>
+                                    <p class="card-text">R$18,00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Local-->
+        <section id="local" class="container text-center mb-5">
+            <!-- Button modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#localmodel">
+                Como chegar até o Coffe Shop
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="localmodel" tabindex="-1" aria-labelledby="localmodelLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="localmodelLabel">Estamos te esperando...</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761561.7712828275!2d-50.631499486631164!3d-22.972307873543322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bc0de91af6a189%3A0xde85eaf3af0146b6!2sLa%20Luna%20Cafeteria%20%26%20Salgaderia!5e0!3m2!1spt-BR!2sbr!4v1761236943733!5m2!1spt-BR!2sbr"
+                                style="border:0; width:100%; height:100%;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="text-center bg-dark text-white p-5 mt-5">
+        <img width="80" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/coffee-shop-caffetteria-logo-design-template-7f592b14492387e7c2821412c8643182_screen.jpg?ts=1577355319"
+            alt="Logo Coffe Shop">
+            <p class="mt-2 mb-0">
+                Choffe Shop * Transformando sua experência com Café em uma jornada de sabor e bem-estar.
+            </p>
+            <p>(11) 99999-9999</p>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
