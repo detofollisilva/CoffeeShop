@@ -8,9 +8,10 @@ O objetivo deste projeto é proporcionar uma **experiência agradável e intuiti
 ## 🌐 Demonstração
 
 🔗 **[Acesse o site aqui](https://detofollisilva.github.io/CoffeeShop/)**  
-_(ou substitua pelo link do seu deploy no GitHub Pages ou Vercel)_
 
-![Preview do Coffee Shop](https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=1000)
+
+<img width="1704" height="915" alt="image" src="https://github.com/user-attachments/assets/9053210a-bda4-41c0-b49e-79ebe5725b59" />
+
 
 ---
 
@@ -72,3 +73,43 @@ O site foi projetado com **design responsivo**, garantindo boa visualização em
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/seu-usuario/coffee-shop.git
+
+   cd coffee-shop
+
+   Abra o arquivo index.html no seu navegador.
+
+---
+📸 Prévia das Seções
+🏠 Início
+
+Banner rotativo com fotos e frases sobre café.
+
+❤️ Sobre Nós
+
+Cards apresentando a filosofia e a paixão pelo café.
+
+☕ Cardápio
+
+Três categorias principais: Expressos, Cappuccinos, Gelados.
+
+📍 Localização
+
+Modal com mapa integrado via Google Maps.
+
+👨‍💻 Autor
+
+Fábio Detofolli
+💼 Desenvolvedor Front-End
+
+📎 LinkedIn - https://www.linkedin.com/in/fabio-detofolli-silva-31b52716b/
+
+📧 Entre em contato - fabim.cajobi@hotmail.com
+
+📝 Licença
+
+Este projeto está sob a licença MIT — sinta-se à vontade para utilizá-lo e modificá-lo.
+Veja o arquivo LICENSE
+ para mais detalhes.
+
+“O amor é um café às oito da manhã numa segunda.” ☕
+Coffee Shop — Transformando sua experiência com café em uma jornada de sabor e bem-estar.
